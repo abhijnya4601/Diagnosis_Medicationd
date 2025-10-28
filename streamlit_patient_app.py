@@ -31,8 +31,8 @@ st.markdown("""
 @st.cache_data
 def load_data():
     """Load patient data"""
-    diagnoses_df = pd.read_csv('Sample_Output_encounters_aws/all_encounters_diagnoses.csv')
-    medications_df = pd.read_csv('Sample_Output_aws/all_medications.csv')
+    diagnoses_df = pd.read_csv('all_encounters_diagnoses.csv')
+    medications_df = pd.read_csv('all_medications.csv')
     return diagnoses_df, medications_df
 
 @st.cache_data
