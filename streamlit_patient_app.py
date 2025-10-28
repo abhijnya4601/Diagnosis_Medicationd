@@ -154,7 +154,7 @@ def main():
                 with col3:
                     st.markdown(f"**DOB:**  \n{patient.get('Patient_DOB', 'N/A')}")
                 with col4:
-                    st.markdown(f"**Age/Gender:**  \n{patient.get('Patient_Age', 'N/A')} / {patient.get('Patient_Gender', 'N/A')}")
+                    st.markdown(f"**Age/Gender:**  \n{patient.get('Patient_Age', 'N/A')} / {patient.get('Patient_Gender_Code', 'N/A')}")
                 
                 st.markdown("---")
                 
